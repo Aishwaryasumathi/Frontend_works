@@ -18,11 +18,11 @@ This sophiticated looking dashbord project is a responsive illustration of compl
 
 These techniques help maintain consistency across screen sizes without relying on media queries alone.
 
-<img src="/FinalScreenshots/Desktop.png" alt="Desktop"/>
+<img src="./FinalScreenshots/Desktop.png" alt="Desktop"/>
 
-<img src="/FinalScreenshots/Tablet.png" alt="Tablet"/>
+<img src="./FinalScreenshots/Tablet.png" alt="Tablet"/>
 
-<img src="/FinalScreenshots/Mobile.png" alt="Mobile"/>
+<img src="./FinalScreenshots/Mobile.png" alt="Mobile"/>
 
 
 
