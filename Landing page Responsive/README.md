@@ -20,11 +20,15 @@ To build a responsive website with em and rem unit along with a deep dive to bac
 
 ## Screenshots
 
-![First](/FinalScreenshots/image1.png)
+<img src = "./FinalScreenshots/image1.png" alt="Desktop" />
+<br/>
+<img src = "./FinalScreenshots/image2.png" alt="Tablet" />
+<br/>
+<img src = "./FinalScreenshots/image3.png" alt="Mobile1" />
+<br/>
+<img src = "./FinalScreenshots/image4.png" alt="Mobile2" />
+<br/>
 
-![Second](/FinalScreenshots/image2.png)
-
-![third](/FinalScreenshots/image3.png)
-
-![fourth](/FinalScreenshots/image4.png)
+## Demo
+https://landingpageresponsivebusiness.netlify.app/
 
