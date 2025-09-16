@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bento Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigator">
+        <img src="assets/FoodLogo.png" alt="logo" class="logo" />
+        <h4 class="brand_name">Sweet Life</h4>
+        <img src="assets/menu.svg" alt="menu" class="menu" />
+      </div>
+      <div class="content">
+        <div class="details">
+          <div class="heading">
+            <h1>Sweet Bento</h1>
+            <p>A Box of Joyful Indulgence, One Bite at a Time.</p>
+          </div>
+          <p class="description">
+            Welcome to Sweet Bento, where each meal is a delightful immersion
+            into Japanese culture. Our bespoke bento boxes cater to your tastes
+            and dietary needs, combining authentic flavors with artistic
+            presentation. Enjoy a unique and joyous dining experience with Sweet
+            Bento.
+          </p>
+        </div>
+        <div class="bento-fish">
+          <button class="nav-btn">
+            Bento Fish <img src="./assets/arrow-right.svg" alt="navigate" />
+          </button>
+        </div>
+        <div class="explore-more">
+          <p>More Japenese Food</p>
+          <img src="assets/external-link.svg" alt="explore more" />
+        </div>
+        <div class="dumplings">
+          <button class="nav-btn">
+            Happy Dumplings
+            <img src="./assets/arrow-right.svg" alt="navigate" />
+          </button>
+        </div>
+        <div class="reviews fade">
+          <div class="nav-arrows">
+            <button class="prev arr" onclick="plusSlides(-1)">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="next arr" onclick="plusSlides(1)">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="glass-div">
+            <h2 class="title"></h2>
+            <p class="desc"></p>
+            <div id="stars">
+              <i class="fa-solid fa-star staricon"></i>
+              <i class="fa-solid fa-star staricon"></i>
+              <i class="fa-solid fa-star staricon"></i>
+              <i class="fa-solid fa-star staricon"></i>
+              <i class="fa-solid fa-star staricon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

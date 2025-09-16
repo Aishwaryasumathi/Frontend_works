@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bacground_color: #e99b98;
+  --font_color: rgba(87, 45, 44, 1);
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: var(--bacground_color);
+  padding: 20px;
+  color: var(--font_color);
+}
+button {
+  cursor: pointer;
+}
+.container {
+  border-radius: 8px;
+  background: #efebe4;
+  box-shadow: 0 4px 21.2px 0 rgba(0, 0, 0, 0.25);
+  padding: 32px;
+}
+.content {
+  display: grid;
+  gap: 20px;
+  min-width: 295px;
+  max-width: 450px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.navigator {
+  border-radius: 12px;
+  border: 1px solid #c7abb2;
+  display: flex;
+  align-items: center;
+  padding: 16px 12px 16px 16px;
+  margin-bottom: 20px;
+}
+.logo {
+  height: 30px;
+}
+.navigator h4 {
+  margin-left: 13px;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+}
+.menu {
+  margin-left: auto;
+}
+.details {
+  border-radius: 12px;
+  background: #edd1d7;
+  padding: 20px;
+}
+.heading h1 {
+  font-size: 3rem;
+  line-height: 100%;
+  letter-spacing: 1.15px;
+}
+.heading p {
+  font-weight: 500;
+}
+.description {
+  border-top: 2px solid #c9b1b6;
+  margin-top: 46px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.35px;
+  padding: 8px;
+}
+.bento-fish {
+  min-height: 162px;
+  border-radius: 12px;
+  background: linear-gradient(
+      0deg,
+      rgba(237, 209, 215, 0.35) 0%,
+      rgba(237, 209, 215, 0.35) 100%
+    ),
+    url(./assets/Bento_fish.png) lightgray 50% / cover no-repeat;
+  position: relative;
+}
+.nav-btn {
+  position: absolute;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.52);
+  backdrop-filter: blur(4.800000190734863px);
+  border: none;
+  padding: 6px 12px;
+  bottom: 16px;
+  right: 16px;
+  font-size: 1.2rem;
+  animation: slideRight 1s infinite ease-in-out;
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.nav-btn img {
+  vertical-align: baseline;
+}
+
+.explore-more {
+  display: flex;
+  padding: 1rem;
+  border: 1px solid #c7abb2;
+  border-radius: 8px;
+  box-shadow: 0 4px 21.2px 0 rgba(0, 0, 0, 0.25);
+}
+.explore-more img {
+  margin-left: auto;
+}
+.explore-more img:hover {
+  transform: scale(1.5);
+}
+.dumplings {
+  min-height: 227px;
+  border-radius: 12px;
+  background: linear-gradient(
+      0deg,
+      rgba(237, 209, 215, 0.35) 0%,
+      rgba(237, 209, 215, 0.35) 100%
+    ),
+    url(./assets/Dumplings.jpg) lightgray 50% / cover no-repeat;
+  position: relative;
+}
+.reviews {
+  border-radius: 12px;
+  height: 500px;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.reviews.fade-out {
+  opacity: 0.8;
+}
+
+.glass-div {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.52);
+  backdrop-filter: blur(20.649999618530273px);
+  max-width: 400px;
+  min-width: 250px;
+  width: 100%;
+  padding: 8px 12px;
+  display: grid;
+  gap: 8px;
+  align-self: flex-end;
+}
+.title {
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+.desc {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.35px;
+}
+.nav-arrows {
+  position: absolute;
+  display: flex;
+  gap: 13px;
+  right: 16px;
+}
+.arr {
+  width: 28px;
+  height: 28px;
+  border: none;
+  padding: 6px;
+  border-radius: 150px;
+  color: #e99b98;
+  transition: bacground_color 0.3s ease;
+}
+.arr:hover {
+  background-color: #e99b98;
+  color: white;
+}
+
+.staricon {
+  color: white;
+}
+.stariconcolor {
+  color: #c86c7f;
+}
+
+@media (min-width: 700px) {
+  .content {
+    min-width: 38rem;
+    max-width: 60rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+      "details reviews"
+      "box1 reviews"
+      "box2 reviews"
+      "box3 reviews";
+    gap: 20px;
+  }
+  .details {
+    grid-area: details;
+  }
+  .reviews {
+    grid-area: reviews;
+  }
+  .bento-fish {
+    grid-area: box1;
+  }
+  .explore-more {
+    grid-area: box2;
+  }
+  .dumplings {
+    grid-area: box3;
+  }
+}
+@media (min-width: 1100px) {
+  .content {
+    min-width: 1000px;
+    max-width: 2000px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+      "details details reviews"
+      "box1 box3 reviews"
+      "box2 box3 reviews";
+  }
+}
