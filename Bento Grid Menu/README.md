@@ -12,10 +12,11 @@ This sophiticated looking drone page project is a responsive illustration of com
 - 📄 Static layout built with semantic HTML
 - 🎯 Used CSS `gird` property to have a good looking menu card.
 
-<img src="./FinalScreenshots" alt=""/>
-<img src="./FinalScreenshots" alt=""/>
-<img src="./FinalScreenshots" alt=""/>
+<img src="./FinalScreenshots/image1.png" alt=""/>
+<img src="./FinalScreenshots/image2.png" alt=""/>
+<img src="./FinalScreenshots/image3.png" alt=""/>
   
 
   ## Demo
+  https://bentogridmenu.netlify.app/
   
