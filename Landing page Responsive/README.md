@@ -13,8 +13,6 @@ This is a simple project that gives a neat idea where responsive layouts are pre
 - 📄 Static layout built with semantic HTML
 
 
-
-
 ## Lessons Learned
 
 To build a responsive website with em and rem unit along with a deep dive to background property in css
@@ -22,9 +20,11 @@ To build a responsive website with em and rem unit along with a deep dive to bac
 
 ## Screenshots
 
-![First](/ Final Screenshots / image 1.png)
+![First](/Final Screenshots/image1.png)
 
-![Second](/ Final Screenshots / image 2.png)
+![Second](/Final Screenshots/image2.png)
 
-![third](/ Final Screenshots / image 3.png)
+![third](/Final Screenshots/image3.png)
+
+![fourth](/Final Screenshots/image4.png)
 
