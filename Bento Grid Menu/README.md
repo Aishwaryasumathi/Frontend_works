@@ -4,7 +4,7 @@ Bento Grid Menu - Eye catchy menu card showing Japenese food in a creative way
 
 # Description 
 
-This sophiticated looking drone page project is a responsive illustration of complex designs into code 
+This is  Simple Bento grid page project is a responsive illustration of complex designs into code 
 
 # 🧠 Development Highlights
 
