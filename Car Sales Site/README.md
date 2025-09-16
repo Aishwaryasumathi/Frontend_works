@@ -15,8 +15,8 @@ This is a simple project that gives a neat idea where responsive layouts are pre
 Clicking the menu icon activates a sleek animation using the CSS `clip-path` property.
 
 <img src="./FinalScreenshots/image1.png" alt="Desktop"/>
-<img src="./FinalScreenshots/image2.png" alt="Tablet"/>
-<img src="./FinalScreenshots/image3.png" alt="Mobile"/>
+<img src="./FinalScreenshots/image2.png" alt="Mobile"/>
+<img src="./FinalScreenshots/image3.png" alt="Tablet"/>
 
 ## Demo
    https://carsalessiteresponsive.netlify.app/
