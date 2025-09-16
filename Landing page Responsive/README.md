@@ -20,11 +20,11 @@ To build a responsive website with em and rem unit along with a deep dive to bac
 
 ## Screenshots
 
-![First](/Final Screenshots/image1.png)
+![First](/FinalScreenshots/image1.png)
 
-![Second](/Final Screenshots/image2.png)
+![Second](/FinalScreenshots/image2.png)
 
-![third](/Final Screenshots/image3.png)
+![third](/FinalScreenshots/image3.png)
 
-![fourth](/Final Screenshots/image4.png)
+![fourth](/FinalScreenshots/image4.png)
 
